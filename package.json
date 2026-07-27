@@ -1,6 +1,6 @@
 {
   "name": "heroic",
-  "version": "2.22.0",
+  "version": "1.0.0",
   "versionNames": {
     "stable": "Hajrudin",
     "beta": "Caesar Clown"
@@ -12,7 +12,7 @@
   "description": "An Open Source Launcher for GOG, Epic Games and Amazon Games",
   "repository": {
     "type": "Github",
-    "url": ""
+    "url": "https://github.com/Radin337/HEROIC-GAMES-LAUNCHER.git"
   },
   "author": {
     "name": "Heroic Games Launcher",
@@ -158,10 +158,14 @@
     "productName": "HEROIC GAMES LAUNCHER",
     "publish": [
       {
-        "provider": "generic",
-        "url": "https://launcher.xcno.ir/downloads/"
+        "provider": "github",
+        "owner": "Radin337",
+        "repo": "HEROIC-GAMES-LAUNCHER"
       }
+
     ],
+
+    
     "files": [
       "build/**/*",
       "node_modules/**/*",
