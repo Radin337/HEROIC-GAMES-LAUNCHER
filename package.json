@@ -4,7 +4,6 @@
   "versionNames": {
     "stable": "Hajrudin",
     "beta": "Caesar Clown"
-    "owner: "Flower"
   },
   "private": false,
   "main": "build/main/main.js",
